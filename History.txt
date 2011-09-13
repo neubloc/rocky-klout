@@ -7,3 +7,8 @@
 
 * 1 minor enhancement:
   * Fixed spelling mistake of relationship_influencer_of
+  
+=== 0.0.3 2011-09-13
+
+* 1 major enhancement:
+  * Allow for passing Twitter ids
