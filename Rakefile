@@ -17,10 +17,3 @@ $hoe = Hoe.spec 'rocky-klout' do
   self.extra_deps         = [['httparty','>= 0.6.1']]
 
 end
-
-require 'newgem/tasks'
-Dir['tasks/**/*.rake'].each { |t| load t }
-
-# TODO - want other tests/tasks run by default? Add them to the list
-# remove_task :default
-# task :default => [:spec, :features]
